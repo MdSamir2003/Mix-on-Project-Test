@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="ABOUT BANGLADESH"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#CDDC39"
+
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bangladesh"
+                android:paddingTop="6dp"
+                android:paddingBottom="10dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/imgsm"
+                    android:layout_weight="1"
+
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/imgsm"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+
+
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/imgsm"
+                    android:layout_weight="1"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Miss Bangladesh Contest was first organized in 1994, but the event did not attract national media attention. In 1994, Anika Taher first represented Bangladesh at the beauty pageant Miss World 1994 held in Sun City, South Africa.[1] Shaila Simi was awarded the Miss Ruposhi Dhaka, Bangladesh award in 1998. Sonia Gazi (who was Miss Bangladesh 2000) received media attention.[2] Tabassum Ferdous Shaon, who participated in the Miss World 2001 in South Africa was the last Bangladeshi contestant.[3][better source needed] Bangladesh has not sent a representative to Miss World since 2001. The pageant returned briefly for one year in 2007 and was organized by Apurbo.com and sponsored by Motherland Group/Cinevision.[4] However, the winner did not take part in Miss World. After 16 years later Antar Showbiz was created Miss World Bangladesh to give Bangladesh the opportunity to participate in the"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+
+                        android:src="@drawable/like"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LIKE"
+                        android:gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+
+                        android:src="@drawable/like"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="LIKE"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+
+                        android:src="@drawable/like"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LIKE"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:layout_marginBottom="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
